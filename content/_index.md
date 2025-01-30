@@ -14,19 +14,19 @@ btn2 :
 cardsTitle: Premium Services
 cards:
 - title: Card 1 Title
-  img: /img/placeholder1.jpg
+  img: img/placeholder1.jpg
   text: Rem temporibus voluptatem eos dolorem dignissimos sed vitae, facere consequuntur atque accusantium.
   btn:
     text: button 1 text
     url: "#"
 - title: Card 2 Title
-  img: /img/placeholder2.jpg
+  img: img/placeholder2.jpg
   text: Rem temporibus voluptatem eos dolorem dignissimos sed vitae, facere consequuntur atque accusantium.
   btn:
     text: button 2 text
     url: "#"
 - title: Card 3 Title
-  img: /img/placeholder3.jpg
+  img: img/placeholder3.jpg
   text: Rem temporibus voluptatem eos dolorem dignissimos sed vitae, facere consequuntur atque accusantium.
   btn:
     text: button 3 text
