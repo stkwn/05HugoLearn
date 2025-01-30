@@ -1,4 +1,4 @@
-baseURL : https://localhost/
+baseURL : https://stkwn.github.io/05HugoLearn/
 # disable taxonomy pages (default)
 disableKinds : 
 - taxonomy
