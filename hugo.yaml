@@ -1,0 +1,31 @@
+baseURL : https://localhost/
+# disable taxonomy pages (default)
+disableKinds : 
+- taxonomy
+- taxonomyTerm
+languageCode : en-us
+defaultContentLanguage : en-us
+title : My New Hugo Site
+copyright : Web Designer Inc.
+paginate : 5
+summaryLength : 20
+
+# This is required so that Hugo will render markdown content as HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# menu links via config file
+menu:
+  main:
+    - identifier: github
+      name: GitHub
+      url: http://www.github.com
+      weight: 90
+      params:
+        blank: true
+    - identifier: google
+      name: Google
+      url: http://www.google.com
+      weight: 100

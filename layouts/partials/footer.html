@@ -1,0 +1,15 @@
+{{/*  <p>Copyright {{ now.Year }}. All rights reserved.</p>  */}}
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col bg-dark text-white p-3">
+      Copyright &copy; <span id="js-year"></span>. {{ with .Site.Copyright }}
+      {{ . }}
+      {{ else }}
+      {{ .Site.Title }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{/*  {{ now.Format "2006" }}  */}}
